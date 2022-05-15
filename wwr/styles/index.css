@@ -5,12 +5,13 @@
 
 nav a {
     text-align: center;
-    color: #036596;
+    color: #FFCD36;
     text-decoration: none;
 }
 
 nav a:hover {
     background-color: #FFCD36;
+    color: #036596;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -40,7 +41,7 @@ header {
 }
 
 nav {
-    background-color: #5EB5CB;
+    background-color: #036596;
 }
 
 .book, .join {

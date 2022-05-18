@@ -1,0 +1,22 @@
+#main-img {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+div {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background: #656565;
+    padding: 50px;
+    max-width: 1100px;
+}
+
+.circle {
+    display: inline-block;
+    width: 200px;
+    margin: 15px 50px;
+    border: 15px solid #333;
+    border-radius: 50%;
+}

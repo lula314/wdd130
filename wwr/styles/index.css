@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gurajada&family=Skranji:wght@700&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a {
     text-align: center;
     color: #FFCD36;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -34,6 +38,14 @@ main section {
 
 body {
     background-color: #FCFBFB;
+    font-family: Gurajada, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -48,6 +60,10 @@ nav {
     background-color: #036596;
     color: #FCFBFB;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -57,14 +73,34 @@ nav {
 
 .msg {
     background-color: #5EB5CB;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.msg h2 {
+    font-family: Skranji, Helvetica, sans-serif;
 }
 
 footer {
     background-color: #036596;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 .home-title {
     color: #036596;
+    font-family: Skranji, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 footer h3 {
@@ -84,6 +120,26 @@ footer a:hover {
     width: 80px;
 }
 
+.icon {
+    padding-top: 10px;
+}
+
+#logo-link {
+    padding-top: 5px;
+}
+
 #hero-img {
     width: 100%;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #036596;
+}
+
+main section img {
+    box-sizing: border-box;
 }

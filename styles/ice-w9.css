@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+#card {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#footer {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:royalblue;
+}
+
+h3 {
+    color: royalblue;
+    margin-bottom: 0;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+#text {
+    color: gray;
+    padding: 15px;
+    margin-top: 0;
+}
+
+.grid {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .75em;
+    color: white;
+    text-align: center;
+    padding: .5em;
+}
+
+.grid h2 {
+    margin-bottom: 0;
+}
+
+.grid p {
+    margin-top: 0;
+}
+
+#middle {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}

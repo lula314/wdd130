@@ -95,7 +95,7 @@ nav {
 footer {
     background-color: #036596;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -220,6 +220,51 @@ main section img {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #222222;
+}
+
+.faq-title{
+    text-align: center;
+    color:#036596;
+    font-family: Skranji, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-left: 10%;
+    font-family: Gurajada, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.panel p {
+    margin: 10px 22px;
+}
+
+.rafting-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 @media screen and (max-width: 900px) {

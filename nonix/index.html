@@ -5,10 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nonix Studios</title>
-    <link rel="stylesheet" href="styles/nonix-index.css">
+    <link rel="stylesheet" href="styles/nonix.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body>
-    
+    <header>
+        <a class="logo-link" href="index.html">
+            <img class="logo" src="images/nonix.png" alt="Nonix Studios logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="games.html">Games</a>
+            <a href="team.html">The Team</a>
+        </nav>
+    </header>
+    <main>
+        <!-- slideshow if i can find enough images -->
+        <div id="hero">
+            <img class="hero-img" src="" alt="ELEPHANT">
+        </div>
+        <h1>Welcome to Nonix Studios!</h1>
+        <div class="slideshow">
+            <div class="slideshow-imgs">
+                <img class="game-image" src="images/rsz_rsz_placeholder2 (1).png" alt="placeholder game image">
+                <img class="game-image" src="images/rsz_rsz_level-down (1).png" alt="level down game image">
+                <img class="game-image" src="images/rsz_rsz_pix (1).png" alt="pix game image">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <h2>Games</h2>
+        </div>
+        <div class="slideshow">
+            <div class="slideshow-imgs">
+                <img class="team-image" src="images/rsz_rsz_lucy (1).png" alt="image of Lucy">
+                <img class="team-image" src="images/rsz_rsz_ty (1).png" alt="image of Ty">
+                <img class="team-image" src="images/rsz_rsz_daisha (1).png" alt="image of Daisha">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <h2>The team</h2>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <img class="logo" src="images/nonix.png" alt="Nonix Studios logo">
+            <h3>Est Sempur Ludum Tempus - It Is Game Time</h3>
+            <div class="social">
+                <a href="https://www.youtube.com/watch?v=a3Z7zEc7AXQ" target="_blank">
+                    <img src="images/youtube-logo.png" alt="Youtube logo">
+                </a>
+                <a href="https://discord.com/" target="_blank">
+                    <img src="images/discord-logo.png" alt="Discord logo">
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <h4>&copy; Nonix Studios - Lucy Eldredge</h4>
+            <h4><a href="site-plan.html">Site Plan</a></h4>
+        </div>
+    </footer>
 </body>
 </html>

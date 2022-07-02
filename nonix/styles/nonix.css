@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Tourney:wght@500&display=swap');
+
+:root {
+    --page-background-color: #454545;
+    --text-color: whitesmoke;
+    --nav-background-color: #353436;
+    --nav-background-hover-color: #3D3D3D;
+    --primary-color: #431C53;
+    --secondary-color: #034731;
+    --link-hover-color: #ccc;
+
+    --heading-font: Tourney;
+    --paragraph-font: "Chakra Petch";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--page-background-color);
+    color: var(--text-color);
+    margin: 0 auto;
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    text-align: center;
+}
+
+header {
+    background-color: var(--nav-background-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+}
+.logo, .logo-link{
+    height: 100px;
+    background-color: var(--primary-color);
+}
+nav {
+    height: 30px;
+}
+nav a {
+    font-family: var(--heading-font);
+    font-size: 27px;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:link, nav a:visited {
+    color: var(--text-color);
+}
+nav a:hover {
+    background-color: var(--nav-background-hover-color);
+}
+
+main {
+    margin-top: 100px;
+}
+
+.footer-top {
+    background-color: var(--nav-background-hover-color);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+}
+.footer-bottom {
+    background-color: var(--nav-background-color);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .logo {
+    height: 75px;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+.social img {
+    width: 75px;
+}
+.footer-bottom h4 {
+    margin: 0 30px;
+}
+.footer-bottom h4 a {
+    margin: 0 30px;
+    color: var(--text-color);
+}
+footer a, footer a:hover, footer a:visited {
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--link-hover-color);
+}
+
+.hero-img {
+    width: 100%;
+}
+main h1, main h2 {
+    font-family: var(--heading-font);
+}
+main h1 {
+    margin: 35px auto 50px;
+}
+#main-page-slideshows {
+    display: flex;
+    justify-content: space-between;
+}
+.slideshow {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+.game-image, .team-image {
+    display: none;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    width: 500px;
+}
+.prev, .next {
+    cursor: pointer;
+    padding: 12px 14px;
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none; 
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+.page-link {
+    margin-top: 15px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+.page-link:hover {
+    color: var(--link-hover-color);
+}
+main p {
+    margin-bottom: 30px;
+}

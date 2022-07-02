@@ -22,28 +22,32 @@
     <main>
         <!-- slideshow if i can find enough images -->
         <div id="hero">
-            <img class="hero-img" src="#" alt="ELEPHANT">
+            <img class="hero-img" src="images/keyboard.jpg" alt="Image of keyboard">
         </div>
         <h1 class="page-title">Welcome to Nonix Studios!</h1>
-        <div class="slideshow">
-            <div class="slideshow-imgs">
-                <img class="game-image" src="images/placeholder.png" alt="placeholder game image">
-                <img class="game-image" src="images/level-down.png" alt="level down game image">
-                <img class="game-image" src="images/pix.png" alt="pix game image">
+        <div id="main-page-slideshows">
+            <div class="slideshow">
+                <div>
+                    <img class="game-image" src="images/placeholder.png" alt="placeholder game image">
+                    <img class="game-image" src="images/level-down.png" alt="level down game image">
+                    <img class="game-image" src="images/pix.png" alt="pix game image">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                <a class="page-link" href="games.html"><h2>Games</h2></a>
+                <p>Check out Nonix Studios unique original games! These games take classic video game tropes and mechanics and flips them on their head to create a brand new gaming experience you've never before seen and are sure to enjoy.</p>
             </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            <h2>Games</h2>
-        </div>
-        <div class="slideshow">
-            <div class="slideshow-imgs">
-                <img class="team-image" src="images/lucy.png" alt="image of Lucy">
-                <img class="team-image" src="images/ty.png" alt="image of Ty">
-                <img class="team-image" src="images/daisha.png" alt="image of Daisha">
+            <div class="slideshow">
+                <div>
+                    <img class="team-image" src="images/lucy.png" alt="image of Lucy">
+                    <img class="team-image" src="images/ty.png" alt="image of Ty">
+                    <img class="team-image" src="images/daisha.png" alt="image of Daisha">
+                </div>
+                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                <a class="page-link" href="team.html"><h2>The Team</h2></a>
+                <p>Come meet the team! Learn about the people who design and create the amazing games Nonix Studios has to offer and see how each person uses their unique skills and talents to contribute to the team and the game making process.</p>
             </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            <h2>The team</h2>
         </div>
     </main>
     <footer>
@@ -64,5 +68,6 @@
             <h4><a href="site-plan.html">Site Plan</a></h4>
         </div>
     </footer>
+    <script src="scripts/nonix.js"></script>
 </body>
 </html>

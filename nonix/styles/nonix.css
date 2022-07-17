@@ -109,7 +109,8 @@ main h1, main h2 {
     font-family: var(--heading-font);
 }
 main h1 {
-    margin: 35px auto 50px;
+    margin: 30px auto 50px;
+    font-size: 2.5em;
 }
 #main-page-slideshows {
     display: flex;
@@ -187,9 +188,11 @@ main p {
 }
 .left {
     grid-column: 1/2;
+    text-align: right;
 }
 .right {
     grid-column: 2/3;
+    text-align: left;
 }
 .img-1 {
     grid-row: 1/3;
